@@ -2,7 +2,7 @@
 streamlit
 
 # 數據處理與科學計算 (numpy must be first for insightface build)
-numpy>=1.23,<2.0
+numpy>=2.0.0
 
 # 人臉辨識
 insightface>=0.7.3
