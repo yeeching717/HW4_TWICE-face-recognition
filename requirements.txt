@@ -1,0 +1,25 @@
+# 核心 UI 框架
+gradio==3.50.2
+
+# 人臉辨識
+insightface==0.7.3
+onnxruntime==1.19.2
+
+# 圖像處理
+opencv-python==4.12.0.88
+pillow==10.4.0
+
+# 數據處理與科學計算
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.6.1
+scikit-image==0.24.0
+
+# 其他依賴
+matplotlib==3.9.4
+cython==3.2.2
+tqdm==4.67.1
+requests==2.32.5
+prettytable==3.16.0
+onnx==1.19.1
+easydict==1.13
