@@ -1,6 +1,9 @@
 # Streamlit (會自動安裝)
 streamlit
 
+# 數據處理與科學計算 (numpy must be first for insightface build)
+numpy>=1.23,<2.0
+
 # 人臉辨識（使用不需要 albumentations 的版本）
 insightface==0.6.2
 onnxruntime>=1.15.0,<1.20.0
@@ -9,8 +12,6 @@ onnxruntime>=1.15.0,<1.20.0
 opencv-python-headless>=4.8.0
 pillow>=10.0.0
 
-# 數據處理與科學計算
-numpy>=1.23,<2.0
 scipy>=1.11.0
 scikit-learn>=1.3.0
 scikit-image>=0.21.0
