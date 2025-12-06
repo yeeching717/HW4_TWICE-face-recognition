@@ -1,25 +1,23 @@
-# 核心 UI 框架
-gradio==3.50.2
+# Streamlit (會自動安裝)
+streamlit
 
-# 人臉辨識
-insightface==0.7.3
+# 人臉辨識（使用不需要 albumentations 的版本）
+insightface==0.6.2
 onnxruntime==1.19.2
 
-# 圖像處理
-opencv-python==4.12.0.88
+# 圖像處理（使用 headless 版本避免 GUI 依賴）
+opencv-python-headless==4.10.0.84
 pillow==10.4.0
 
 # 數據處理與科學計算
-numpy==1.26.4
+numpy>=1.23,<2.0
 scipy==1.13.1
 scikit-learn==1.6.1
 scikit-image==0.24.0
 
 # 其他依賴
 matplotlib==3.9.4
-cython==3.2.2
 tqdm==4.67.1
 requests==2.32.5
-prettytable==3.16.0
 onnx==1.19.1
 easydict==1.13
