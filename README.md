@@ -89,9 +89,6 @@ streamlit run app.py
 
 瀏覽器會自動開啟 `http://localhost:8501`
 
-### 線上使用
-
-直接訪問 [Streamlit Cloud 部署版本](https://hw4-twice-face-recognition.streamlit.app/)，無需安裝！
 
 ## 📁 專案結構
 
@@ -273,6 +270,3 @@ python-3.13.1
 - Streamlit 團隊提供的優秀 Web 框架
 - TWICE 成員提供靈感 ✨
 
-## 📧 聯絡方式
-
-如有問題或建議，歡迎透過 GitHub Issues 回報。
