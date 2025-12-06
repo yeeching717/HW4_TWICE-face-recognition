@@ -4,8 +4,9 @@ streamlit
 # 數據處理與科學計算 (numpy must be first for insightface build)
 numpy>=1.23,<2.0
 
-# 人臉辨識（使用不需要 albumentations 的版本）
-insightface==0.6.2
+# 人臉辨識
+insightface>=0.7.3
+albumentations>=1.3.0
 onnxruntime>=1.15.0,<1.20.0
 
 # 圖像處理（使用 headless 版本避免 GUI 依賴）
